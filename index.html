@@ -4,6 +4,7 @@
 	<title>Prima pagina web</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 </head>
 <body>
 	<header>
@@ -48,7 +49,7 @@
 	<nav>
 		<ul>
 			<li id="continput">
-			<label for="i1"><span id="sicon"></span></label>
+			<label for="i1"><i id="sicon" data-feather="search"></i></label>
 			<input id="i1" type="text" name="input1">
 			</li>
 			
@@ -59,5 +60,8 @@
 	</nav>
 
 	<footer>@Credits</footer>
+    <script>
+      feather.replace()
+    </script>
 </body>
 </html>

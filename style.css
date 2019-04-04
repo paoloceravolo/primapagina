@@ -33,19 +33,10 @@ header {
   transition:all 2s ease-out;
 }
 
-#sicon {
-	font-size: 10em;
-      display: inline-block;
-      width: 0.05em;
-      box-sizing: content-box;
-      height: 0.05em;
-      border: 0.02em solid rgba(218,208,190,1);
-      position: relative;
-      border-radius: 0.35em;
-}
+
 
 #sicon:hover {
-      border: 0.02em solid blue;
+      color: blue;
 }
 
 #sicon:hover ~ li{
