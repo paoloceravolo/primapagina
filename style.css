@@ -4,6 +4,16 @@ header {
 	background-color: pink;
 }
 
+.feather {
+  width: 15px;
+  height: 15px;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
 #continput{
   display: inline-block;
   font-size:1em;
